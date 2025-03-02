@@ -45,18 +45,18 @@ Il interprète les commandes que tu saisis et exécute les tâches demandées, c
 | `mkdir`          | Créer un nouveau dossier                    | `mkdir mon_dossier`                    |  
 | `rmdir`          | Supprimer un dossier vide                   | `rmdir mon_dossier`                    |  
 | `touch`          | Créer un fichier vide                       | `touch fichier.txt`                    |  
+| `nano`           | Créer/éditer un fichier vide                | `nano fichier.txt`                     |  
 | `rm`             | Supprimer un fichier                        | `rm fichier.txt`                       |  
 | `cp`             | Copier des fichiers ou dossiers             | `cp source.txt destination.txt`        |  
 | `mv`             | Déplacer ou renommer des fichiers/dossiers  | `mv ancien_nom.txt nouveau_nom.txt`    |  
 
 📦 **Scénario :**  
-Tu veux préparer des dossiers pour un projet :  
+Tu veux préparer un dossier pour un projet et y placer un fichier texte pour le décrire :  
 
 ```bash
 mkdir /home/utilisateur/projet
 cd /home/utilisateur/projet
-touch notes.txt
-ls -l
+nano notes.txt
 ```
 
 ### 🔍 **Navigation dans le Système de Fichiers**  
